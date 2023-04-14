@@ -1,0 +1,84 @@
+/* estilos de inicio */
+body {
+  max-width: 1300px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+body header h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+}
+body header h1 {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+header {
+  background-color: black;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  background-color: white;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: 5px;
+  padding: 3px;
+  margin: 5px 300px 5px 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  border-top: solid 2px white;
+  margin: 50px;
+}
+footer div {
+  text-align: right;
+}
+footer p {
+  color: white;
+  text-align: left;
+}
+
+main section article {
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  margin: 90px;
+  border-top: solid 1px white;
+}
+
+main section article img {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
