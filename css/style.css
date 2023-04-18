@@ -465,3 +465,37 @@ body {
 .subtitle {
   font-size: 18px;
 }
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form legend {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form label {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.form input {
+  width: 90%;
+  height: 20px;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  height: 60px;
+  width: 90%;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
