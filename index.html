@@ -21,32 +21,44 @@
     <title>clase 2</title>
   </head>
   <body>
-    <header>
-      <h1>032 PRODUCCIONES</h1>
-      <nav>
-        <ul>
-          <div class="nav-list">
-            <li>
-              <a href="">INICIO</a>
-              <a href="pages/quienessomos.html">QUIENES SOMOS</a>
-              <a href="pages/producciones.html">PRODUCCIONES</a>
-              <a href="pages/cartelera.html">CARTELERA</a>
-              <a href="pages/contacto.html">CONTACTO</a>
-            </li>
-          </div>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <article>
+    <div id="grid-container">
+      <h1 class="header_title">032 PRODUCCIONES</h1>
+      <header class="header">
+        <nav class="nav">
+          <ul>
+            <div class="nav_list">
+              <li class="nav_item">
+                <a href="" class="nav_link nav_link--active">INICIO</a>
+              </li>
+              <li class="nav_item">
+                <a href="pages/quienessomos.html" class="nav_link"
+                  >QUIENES SOMOS</a
+                >
+              </li>
+              <li class="nav_item">
+                <a href="pages/producciones.html" class="nav_link"
+                  >PRODUCCIONES</a
+                >
+              </li>
+              <li class="nav_item">
+                <a href="pages/cartelera.html" class="nav_link">CARTELERA</a>
+              </li>
+              <li class="nav_item">
+                <a href="pages/contacto.html" class="nav_link">CONTACTO</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="main_content">
           <img
+            class="main_img"
             src="images/032-chico.gif"
-            width="800"
             alt="032 logo"
             srcset=""
           />
-          <p>
+          <p class="main_description">
             Nuestra propuesta artística tiene como principal objetivo traer a
             Rosario la vertiginosidad y el encanto del musical a un público que
             en la mayoría de los casos se ve forzado a viajar para deleitarse
@@ -59,27 +71,24 @@
             conocer un poco más la materia prima que nuestra ciudad tiene para
             lucir en escena.
           </p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <p>032producciones@gmail.com</p>
-      <p>Rioja 2445</p>
-      <p>Rosario, Santa Fe</p>
-      <div>
-        <a href=""
+        </div>
+      </main>
+      <footer class="footer">
+        <a href="" class="socials_link"
           ><i class="fa-brands fa-facebook fa-2xl" style="color: #fcfcfc"></i
         ></a>
-        <a href="https://www.instagram.com/032producciones/"
+        <a
+          href="https://www.instagram.com/032producciones/"
+          class="socials_link"
           ><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff"></i
         ></a>
-        <a href="https://www.youtube.com/@032producciones5"
+        <a href="https://www.youtube.com/@032producciones5" class="socials_link"
           ><i class="fa-brands fa-youtube fa-2xl" style="color: #fafafa"></i
         ></a>
-        <a href="pages/contacto.html"
+        <a href="pages/contacto.html" class="socials_link"
           ><i class="fa-brands fa-whatsapp fa-2xl" style="color: #fcfcfd"></i
         ></a>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
