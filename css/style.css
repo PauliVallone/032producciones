@@ -260,7 +260,7 @@ body {
   display: grid;
   padding: 2rem;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 2fr;
+  grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
@@ -300,9 +300,9 @@ body {
   display: grid;
   padding: 2rem;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 2fr;
+  grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
-  column-gap: 20px;
+  column-gap: 10px;
   row-gap: 10px;
   grid-template-areas:
     "imgizq title imgder"
@@ -340,7 +340,7 @@ body {
   display: grid;
   padding: 2rem;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 2fr;
+  grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
@@ -359,7 +359,7 @@ body {
 .main_description_bt {
   text-align: center;
   font-size: 13px;
-  padding: 2rem 10rem 2rem 10rem;
+  padding: 2rem 5rem 2rem 5rem;
 }
 
 .bt_prox {
@@ -377,7 +377,7 @@ body {
 .main_description_nmd {
   text-align: center;
   font-size: 13px;
-  padding: 2rem 10rem 2rem 10rem;
+  padding: 2rem 5rem 2rem 5rem;
 }
 
 .nmd_prox {
