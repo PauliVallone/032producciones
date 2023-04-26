@@ -1,40 +1,17 @@
-/* estilos de inicio */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: letraproductora;
+  src: url(../letraprodu.TTF);
+}
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
   background-color: black;
-}
-
-#grid-container {
-  max-width: 1200px;
-  padding: 1rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: auto auto 1fr auto;
-  grid-template-columns: 100%;
-  height: 100vh;
-  grid-template-areas:
-    "title"
-    "header"
-    "main"
-    "footer";
-}
-
-.header {
-  text-align: center;
-  grid-area: header;
-}
-.header_title {
-  font-size: 25px;
-  text-align: center;
-  grid-area: title;
-  margin-bottom: 30px;
+  font-family: letraproductora;
+  color: white;
 }
 
 .nav {
@@ -58,6 +35,32 @@ body {
   color: black;
 }
 
+.header_title {
+  font-family: letraproductora;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  grid-area: title;
+  margin-bottom: 30px;
+}
+
+#grid-container {
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 100%;
+  height: 100vh;
+  grid-template-areas: "title" "header" "main" "footer";
+}
+
+.header {
+  text-align: center;
+  grid-area: header;
+}
+
 .main {
   grid-area: main;
 }
@@ -73,6 +76,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 13px;
+  font-family: letraproductora;
 }
 
 .main_img {
@@ -92,30 +96,7 @@ body {
 .socials_link {
   margin: 20px;
 }
-/* Media queries */
-@media (min-width: 768px) {
-  .header {
-    display: flex;
-    align-items: center;
-  }
-  .nav {
-    flex: 1;
-    margin-top: 0;
-  }
-  .nav_list {
-    display: flex;
-    justify-content: center;
-  }
-  .nav_item {
-    margin-left: 1rem;
-  }
-  .main {
-    display: flex;
-    align-items: center;
-  }
-}
 
-/*QUIENES SOMOS*/
 .main_title_sn {
   font-size: 20px;
   text-align: center;
@@ -193,7 +174,6 @@ body {
   text-align: center;
 }
 
-/*PRODUCCIONES*/
 .main_title_p {
   font-size: 20px;
   text-align: center;
@@ -252,7 +232,6 @@ body {
 
 .main_img_ldm {
   grid-area: imgmedio;
-
   justify-self: center;
 }
 
@@ -264,10 +243,7 @@ body {
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
-  grid-template-areas:
-    "imgizq title imgder"
-    "imgizq description imgder"
-    "imgizq imgmedio imgder";
+  grid-template-areas: "imgizq title imgder" "imgizq description imgder" "imgizq imgmedio imgder";
 }
 
 .main_title_mama {
@@ -304,10 +280,7 @@ body {
   min-width: 100vh;
   column-gap: 10px;
   row-gap: 10px;
-  grid-template-areas:
-    "imgizq title imgder"
-    "imgizq description imgder"
-    "imgizq imgmedio imgder";
+  grid-template-areas: "imgizq title imgder" "imgizq description imgder" "imgizq imgmedio imgder";
 }
 
 .main_title_gin {
@@ -340,14 +313,11 @@ body {
   display: grid;
   padding: 2rem;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 1fr;
+  grid-template-rows: 70px auto 1nodefr;
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
-  grid-template-areas:
-    "imgizq title imgder"
-    "imgizq description imgder"
-    "imgizq imgmedio imgder";
+  grid-template-areas: "imgizq title imgder" "imgizq description imgder" "imgizq imgmedio imgder";
 }
 
 .main_title_bt {
@@ -387,7 +357,6 @@ body {
   padding-bottom: 50px;
 }
 
-/*CARTELERA*/
 .main_title_cart {
   font-size: 20px;
   text-align: center;
@@ -403,6 +372,7 @@ body {
   grid-area: subtitle-marzo;
   align-self: center;
 }
+
 .main_subtitle_cart2 {
   font-size: 18px;
   text-align: center;
@@ -424,6 +394,7 @@ body {
   align-self: center;
   padding-bottom: 100px;
 }
+
 .main_img_bt {
   grid-area: imgbt;
   justify-self: center;
@@ -439,20 +410,15 @@ body {
   min-width: 80vh;
   column-gap: 10px;
   row-gap: 10px;
-  grid-template-areas:
-    "title title"
-    "subtitle-marzo subtitle-marzo"
-    "imgmama imgmama"
-    "subtitle-prox subtitle-prox"
-    "imgnmd imgbt";
+  grid-template-areas: "title title" "subtitle-marzo subtitle-marzo" "imgmama imgmama" "subtitle-prox subtitle-prox" "imgnmd imgbt";
 }
 
-/*CONTACTO*/
 .title-cont {
   font-size: 20px;
   text-align: center;
   padding-top: 30px;
 }
+
 .flex-container-cont {
   display: flex;
   flex-direction: column;
@@ -499,3 +465,27 @@ body {
   margin-left: 1rem;
   margin-bottom: 10px;
 }
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .nav {
+    flex: 1;
+    margin-top: 0;
+  }
+  .nav_list {
+    display: flex;
+    justify-content: center;
+  }
+  .nav_item {
+    margin-left: 1rem;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

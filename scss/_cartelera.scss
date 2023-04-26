@@ -1,0 +1,58 @@
+.main_title_cart {
+  font-size: 20px;
+  text-align: center;
+  grid-area: title;
+  align-self: center;
+}
+
+.main_subtitle_cart1 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  grid-area: subtitle-marzo;
+  align-self: center;
+}
+.main_subtitle_cart2 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  grid-area: subtitle-prox;
+  align-self: center;
+}
+
+.main_img_mama {
+  grid-area: imgmama;
+  justify-self: center;
+  align-self: center;
+}
+
+.main_img_nmd {
+  grid-area: imgnmd;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 100px;
+}
+.main_img_bt {
+  grid-area: imgbt;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 100px;
+}
+
+#grid-container-cart {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 13% 13% auto 13% auto;
+  min-width: 80vh;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas:
+    "title title"
+    "subtitle-marzo subtitle-marzo"
+    "imgmama imgmama"
+    "subtitle-prox subtitle-prox"
+    "imgnmd imgbt";
+}

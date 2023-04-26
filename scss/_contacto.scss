@@ -1,0 +1,51 @@
+.title-cont {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.flex-container-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  padding: 1rem;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form legend {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form label {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.form input {
+  width: 90%;
+  height: 20px;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  height: 60px;
+  width: 90%;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
