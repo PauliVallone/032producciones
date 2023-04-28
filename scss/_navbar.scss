@@ -1,20 +1,10 @@
-.nav {
-  margin-top: 1rem;
-}
-
-.nav_list {
-  list-style: none;
-}
-
-.nav_link {
+.nav-link {
   text-decoration: none;
   font-size: 15px;
   color: white;
   display: flex;
-  text-transform: uppercase;
 }
-
-.nav_link--active {
+.active {
   background-color: white;
   color: black;
 }

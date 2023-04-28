@@ -14,23 +14,14 @@ body {
   color: white;
 }
 
-.nav {
-  margin-top: 1rem;
-}
-
-.nav_list {
-  list-style: none;
-}
-
-.nav_link {
+.nav-link {
   text-decoration: none;
   font-size: 15px;
   color: white;
   display: flex;
-  text-transform: uppercase;
 }
 
-.nav_link--active {
+.active {
   background-color: white;
   color: black;
 }
@@ -43,6 +34,7 @@ body {
   font-size: 25px;
   grid-area: title;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #grid-container {
@@ -470,17 +462,6 @@ body {
   .header {
     display: flex;
     align-items: center;
-  }
-  .nav {
-    flex: 1;
-    margin-top: 0;
-  }
-  .nav_list {
-    display: flex;
-    justify-content: center;
-  }
-  .nav_item {
-    margin-left: 1rem;
   }
   .main {
     display: flex;
