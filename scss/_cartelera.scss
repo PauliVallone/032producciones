@@ -8,7 +8,7 @@
 .main_subtitle_cart1 {
   font-size: 18px;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   grid-area: subtitle-marzo;
   align-self: center;
@@ -16,7 +16,7 @@
 .main_subtitle_cart2 {
   font-size: 18px;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   grid-area: subtitle-prox;
   align-self: center;
@@ -32,27 +32,29 @@
   grid-area: imgnmd;
   justify-self: center;
   align-self: center;
-  padding-bottom: 100px;
 }
 .main_img_bt {
   grid-area: imgbt;
   justify-self: center;
   align-self: center;
-  padding-bottom: 100px;
 }
 
-#grid-container-cart {
+.footer {
+  grid-area: footer;
+}
+
+.grid-container-cart {
   display: grid;
-  padding: 30px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 13% 13% auto 13% auto;
-  min-width: 80vh;
-  column-gap: 10px;
+  padding: 50px 60px 50px 60px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 8% 8% auto 8% auto 13%;
+  min-width: 100vh;
   row-gap: 10px;
   grid-template-areas:
     "title title"
     "subtitle-marzo subtitle-marzo"
     "imgmama imgmama"
     "subtitle-prox subtitle-prox"
-    "imgnmd imgbt";
+    "imgnmd imgbt"
+    "footer footer";
 }
