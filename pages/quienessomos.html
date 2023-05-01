@@ -10,6 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
     <!-- Font awesome -->
     <link
       rel="stylesheet"
@@ -23,26 +30,53 @@
   <body>
     <h1 class="header_title">032 PRODUCCIONES</h1>
     <header class="header">
-      <nav class="nav">
-        <ul>
-          <div class="nav_list">
-            <li class="nav_item">
-              <a href="../index.html" class="nav_link">INICIO</a>
-            </li>
-            <li class="nav_item">
-              <a href="" class="nav_link nav_link--active">QUIENES SOMOS</a>
-            </li>
-            <li class="nav_item">
-              <a href="quienessomos.html" class="nav_link">PRODUCCIONES</a>
-            </li>
-            <li class="nav_item">
-              <a href="cartelera.html" class="nav_link">CARTELERA</a>
-            </li>
-            <li class="nav_item">
-              <a href="contacto.html" class="nav_link">CONTACTO</a>
-            </li>
+      <nav class="navbar navbar-expand-lg navbar--black">
+        <div class="container">
+          <button
+            data-bs-theme="dark"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="quienessomos.html"
+                  >QUIENES SOMOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="producciones.html"
+                  >PRODUCCIONES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="cartelera.html"
+                  >CARTELERA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
           </div>
-        </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -112,12 +146,16 @@
           srcset=""
         />
         <p class="main_staff_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          quod beatae ratione maxime aliquid labore officiis. Ipsa ea doloremque
-          aliquam, voluptas libero fugit vel dolorum consequatur alias
-          voluptates earum, distinctio delectus ut numquam sed corrupti
-          explicabo odit! Consequuntur mollitia, reprehenderit deleniti
-          asperiores libero sunt. Id quidem aliquid laboriosam hic dolores.
+          Egresada y docente de Comedias Musicales. Estudió teatro, canto y
+          danza jazz desde los 20 años. Desde el 2019 se forma en danza tap.
+          Participó como actriz en obras como "15 minutos de cardio", "La
+          Desgracia Rosario", "Dos Mujeres", "La Pecaderia", "Civil, macumba de
+          un amor", "Mamá está más chiquita", "Modelos de madre para recortar y
+          armar", "Un reino muy pero muy chiquito", "A las 4", "¿Estás ahí?",
+          "Peter Pan el musical", "Dracula" y "Obras cortas de Julio Chavez".
+          Participó como productora en La Desgracia Rosario, Mamá está más
+          chiquita Rosario (proyecto que dirigió), La culpa es de Ginebra, No me
+          digas que ya sé Rosario y Bajo Terapia Rosario.
         </p>
       </div>
 
@@ -132,12 +170,20 @@
           srcset=""
         />
         <p class="main_staff_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          quod beatae ratione maxime aliquid labore officiis. Ipsa ea doloremque
-          aliquam, voluptas libero fugit vel dolorum consequatur alias
-          voluptates earum, distinctio delectus ut numquam sed corrupti
-          explicabo odit! Consequuntur mollitia, reprehenderit deleniti
-          asperiores libero sunt. Id quidem aliquid laboriosam hic dolores.
+          Actor y productor de la ciudad de Rosario. Estudió piano, teatro,
+          danzas y circo desde muy pequeño. En 2012 comenzó sus estudios de
+          Comedias Musicales en la ciudad de Rosario. Participó como actor en
+          obras como “Traición y muerte en Pichincha” (2013) ; “La Hora” (2014);
+          “La leyenda del jinete sin cabeza” (2015/2016), “Modelos de madres
+          para recortar y armar” Hugo Saccoccia, “Mamá está más chiquita” de
+          Ignacio Olivera y Juan Pablo Schapira y “La Pecadería”. A partir del
+          año 2019 comenzó a formar parte del grupo de improvisación «The
+          jumping frijoles hacen el match» dirigido por Cristian Marchesi.
+          Durante 2020 tomo talleres de escritura teatral con Ignacio Olivera y
+          Juan Pablo Schapira. Participó como productora en La Desgracia
+          Rosario, Mamá está más chiquita Rosario (proyecto que dirigió), La
+          culpa es de Ginebra, No me digas que ya sé Rosario y Bajo Terapia
+          Rosario.
         </p>
       </div>
       <h2 class="main_staff_integrante">CECILIA MANSUR</h2>
@@ -151,12 +197,15 @@
           srcset=""
         />
         <p class="main_staff_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          quod beatae ratione maxime aliquid labore officiis. Ipsa ea doloremque
-          aliquam, voluptas libero fugit vel dolorum consequatur alias
-          voluptates earum, distinctio delectus ut numquam sed corrupti
-          explicabo odit! Consequuntur mollitia, reprehenderit deleniti
-          asperiores libero sunt. Id quidem aliquid laboriosam hic dolores.
+          Egresada y docente del Estudio de Comedias Musicales. Estudió teatro y
+          canto desde muy pequeña. Desde el 2016 se forma en danza tap.
+          Participó como actriz en obras como La Desgracia Rosario, No me digas
+          que ya sé, Las Brujas de Salem: el musical, La casa de Bernarda Alba,
+          Robin Hood y Los Miserables en concierto. Participó como productora en
+          La Desgracia Rosario, Mamá está más chiquita Rosario, La culpa es de
+          Ginebra, No me digas que ya sé Rosario y Bajo Terapia Rosario.
+          Actualmente se dedica al canto profesionalmente, participando de
+          proyectos en conjunto y solistas.
         </p>
       </div>
       <h2 class="main_staff_integrante">NATACHA CATIVIELA</h2>
@@ -193,5 +242,10 @@
         ><i class="fa-brands fa-whatsapp fa-2xl" style="color: #fcfcfd"></i
       ></a>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

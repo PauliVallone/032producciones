@@ -52,6 +52,7 @@
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_ldm {
@@ -60,10 +61,10 @@
   justify-self: center;
 }
 
-#grid-container-ld {
+.grid-container-ld {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
@@ -93,6 +94,7 @@
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_mamamed {
@@ -100,10 +102,10 @@
   justify-self: center;
 }
 
-#grid-container-mama {
+.grid-container-mama {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 10px;
@@ -133,6 +135,7 @@
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_ginmed {
@@ -140,11 +143,11 @@
   justify-self: center;
 }
 
-#grid-container-gin {
+.grid-container-gin {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 1nodefr;
+  grid-template-columns: 30% auto 30%;
+  grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
@@ -164,6 +167,7 @@
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bt_prox {
@@ -182,6 +186,7 @@
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nmd_prox {

@@ -15,10 +15,12 @@ body {
 }
 
 .nav-link {
-  text-decoration: none;
   font-size: 15px;
   color: white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-spacing: -7px;
 }
 
 .active {
@@ -49,7 +51,10 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   grid-area: header;
 }
 
@@ -68,7 +73,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 13px;
-  font-family: letraproductora;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img {
@@ -101,6 +106,7 @@ body {
   font-size: 12px;
   text-align: center;
   padding: 3rem 2rem 3rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_qs_img {
@@ -164,6 +170,8 @@ body {
 .main_staff_description {
   font-size: 13px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
 }
 
 .main_title_p {
@@ -220,6 +228,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_ldm {
@@ -227,10 +236,10 @@ body {
   justify-self: center;
 }
 
-#grid-container-ld {
+.grid-container-ld {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
@@ -257,6 +266,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_mamamed {
@@ -264,10 +274,10 @@ body {
   justify-self: center;
 }
 
-#grid-container-mama {
+.grid-container-mama {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 10px;
@@ -294,6 +304,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_img_ginmed {
@@ -301,11 +312,11 @@ body {
   justify-self: center;
 }
 
-#grid-container-gin {
+.grid-container-gin {
   display: grid;
   padding: 2rem;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 70px auto 1nodefr;
+  grid-template-columns: 30% auto 30%;
+  grid-template-rows: 70px auto 1fr;
   min-width: 100vh;
   column-gap: 20px;
   row-gap: 10px;
@@ -322,6 +333,7 @@ body {
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bt_prox {
@@ -340,6 +352,7 @@ body {
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nmd_prox {
@@ -359,7 +372,7 @@ body {
 .main_subtitle_cart1 {
   font-size: 18px;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   grid-area: subtitle-marzo;
   align-self: center;
@@ -368,7 +381,7 @@ body {
 .main_subtitle_cart2 {
   font-size: 18px;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   grid-area: subtitle-prox;
   align-self: center;
@@ -384,25 +397,26 @@ body {
   grid-area: imgnmd;
   justify-self: center;
   align-self: center;
-  padding-bottom: 100px;
 }
 
 .main_img_bt {
   grid-area: imgbt;
   justify-self: center;
   align-self: center;
-  padding-bottom: 100px;
 }
 
-#grid-container-cart {
+.footer {
+  grid-area: footer;
+}
+
+.grid-container-cart {
   display: grid;
-  padding: 30px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 13% 13% auto 13% auto;
-  min-width: 80vh;
-  column-gap: 10px;
+  padding: 50px 60px 50px 60px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 8% 8% auto 8% auto 13%;
+  min-width: 100vh;
   row-gap: 10px;
-  grid-template-areas: "title title" "subtitle-marzo subtitle-marzo" "imgmama imgmama" "subtitle-prox subtitle-prox" "imgnmd imgbt";
+  grid-template-areas: "title title" "subtitle-marzo subtitle-marzo" "imgmama imgmama" "subtitle-prox subtitle-prox" "imgnmd imgbt" "footer footer";
 }
 
 .title-cont {
@@ -435,13 +449,20 @@ body {
 }
 
 .form legend {
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
 .form label {
   font-size: 15px;
   margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .form input {
