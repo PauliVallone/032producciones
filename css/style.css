@@ -73,7 +73,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .main_img {
@@ -106,7 +106,7 @@ body {
   font-size: 12px;
   text-align: center;
   padding: 3rem 2rem 3rem 2rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .main_qs_img {
@@ -170,7 +170,7 @@ body {
 .main_staff_description {
   font-size: 13px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   padding: 50px;
 }
 
@@ -228,7 +228,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .main_img_ldm {
@@ -266,7 +266,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .main_img_mamamed {
@@ -304,7 +304,7 @@ body {
   grid-area: description;
   text-align: center;
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .main_img_ginmed {
@@ -333,7 +333,7 @@ body {
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .bt_prox {
@@ -352,7 +352,7 @@ body {
   text-align: center;
   font-size: 13px;
   padding: 2rem 5rem 2rem 5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .nmd_prox {
@@ -457,11 +457,11 @@ body {
 .form label {
   font-size: 15px;
   margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 fieldset input {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 13px;
 }
 
