@@ -9,3 +9,71 @@
     align-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .grid-container-ld {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: 70px auto;
+    max-width: 100%;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-areas:
+      "title"
+      "description";
+  }
+  .main_img_ldm {
+    display: none;
+  }
+  .main_img_ldi {
+    display: none;
+  }
+  .main_img_ldd {
+    display: none;
+  }
+
+  .grid-container-mama {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: 70px auto;
+    max-width: 100%;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-areas:
+      "title"
+      "description";
+  }
+  .main_img_mamamed {
+    display: none;
+  }
+  .main_img_mamaizq {
+    display: none;
+  }
+  .main_img_mamader {
+    display: none;
+  }
+
+  .grid-container-gin {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: 70px auto;
+    max-width: 100%;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-areas:
+      "title"
+      "description";
+  }
+  .main_img_ginmed {
+    display: none;
+  }
+  .main_img_ginizq {
+    display: none;
+  }
+  .main_img_ginder {
+    display: none;
+  }
+}

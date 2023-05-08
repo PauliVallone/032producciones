@@ -48,7 +48,7 @@
   padding: 50px 60px 50px 60px;
   grid-template-columns: auto auto;
   grid-template-rows: 8% 8% auto 8% auto 13%;
-  min-width: 100vh;
+  max-width: 100%;
   row-gap: 10px;
   grid-template-areas:
     "title title"
