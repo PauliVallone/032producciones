@@ -2,6 +2,9 @@
   font-size: 20px;
   text-align: center;
   padding-top: 30px;
+  animation: aparecer;
+  animation-duration: 3s;
+  animation-timing-function: infinite;
 }
 .flex-container-cont {
   display: flex;

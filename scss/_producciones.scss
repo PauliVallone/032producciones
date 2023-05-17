@@ -3,6 +3,9 @@
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 1rem;
+  animation: aparecer;
+  animation-duration: 3s;
+  animation-timing-function: infinite;
 }
 
 .main_p_img {
@@ -11,26 +14,9 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-}
-
-.main_p_img1 {
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-.main_p_img2 {
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-.main_p_img3 {
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-.main_p_img4 {
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-.main_p_img5 {
-  padding: 2rem 2rem 2rem 2rem;
+  img {
+    @include fotosredondas;
+  }
 }
 
 .main_title_ld {
@@ -57,7 +43,6 @@
 
 .main_img_ldm {
   grid-area: imgmedio;
-
   justify-self: center;
 }
 

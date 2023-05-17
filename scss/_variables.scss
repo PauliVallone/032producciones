@@ -1,1 +1,13 @@
 $tipografia-parrafo: arial, helvetica, sans-serif;
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin fotosredondas {
+  padding: 2rem 2rem 2rem 2rem;
+}
