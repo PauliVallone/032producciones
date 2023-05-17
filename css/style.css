@@ -360,6 +360,8 @@ body {
 .main_title_cart {
   font-size: 20px;
   text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
   grid-area: title;
   align-self: center;
   animation: aparecer;
@@ -389,18 +391,21 @@ body {
   grid-area: imgmama;
   justify-self: center;
   align-self: center;
+  width: 30%;
 }
 
 .main_img_nmd {
   grid-area: imgnmd;
   justify-self: center;
   align-self: center;
+  width: 30%;
 }
 
 .main_img_bt {
   grid-area: imgbt;
   justify-self: center;
   align-self: center;
+  width: 30%;
 }
 
 .footer {
@@ -409,11 +414,9 @@ body {
 
 .grid-container-cart {
   display: grid;
-  padding: 50px 60px 50px 60px;
   grid-template-columns: auto;
-  grid-template-rows: 8% 8% auto 8% auto auto 13%;
-  max-width: 100%;
-  row-gap: 20px;
+  grid-template-rows: 5% 5% auto 5% auto auto 20%;
+  row-gap: 10px;
   grid-template-areas: "title" "subtitle-marzo" "imgmama" "subtitle-prox" "imgnmd" "imgbt" "footer";
 }
 
